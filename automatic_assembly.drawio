@@ -1,9 +1,91 @@
-<mxfile host="app.diagrams.net" modified="2024-03-21T07:22:34.585Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" version="24.0.5" etag="n8adnn9AcE-G27Uvfn-0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-21T08:26:33.963Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="Uc5c7mkfI7gdz_0uN-4c" version="24.0.5" type="github">
   <diagram name="第 1 页" id="amzDyYkYN6FVQSO8iXyA">
-    <mxGraphModel>
+    <mxGraphModel dx="1195" dy="638" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="a7E2P9M9Sf0VjXvXBYjY-8" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="62" y="70" width="125" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="a7E2P9M9Sf0VjXvXBYjY-1" value="sku_info" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="65" y="70" width="120" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="a7E2P9M9Sf0VjXvXBYjY-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="a7E2P9M9Sf0VjXvXBYjY-2" target="a7E2P9M9Sf0VjXvXBYjY-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a7E2P9M9Sf0VjXvXBYjY-2" value="sku_info" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="65" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a7E2P9M9Sf0VjXvXBYjY-3" value="sku_info" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="100" width="120" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="a7E2P9M9Sf0VjXvXBYjY-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="a7E2P9M9Sf0VjXvXBYjY-5" target="a7E2P9M9Sf0VjXvXBYjY-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a7E2P9M9Sf0VjXvXBYjY-5" value="sku_info" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a7E2P9M9Sf0VjXvXBYjY-6" value="直到sku_info[&#39;wodiu&#39;]=True" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="240" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a7E2P9M9Sf0VjXvXBYjY-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="a7E2P9M9Sf0VjXvXBYjY-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a7E2P9M9Sf0VjXvXBYjY-9" value="color" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="65" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a7E2P9M9Sf0VjXvXBYjY-12" value="sku_info" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="320" width="120" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="a7E2P9M9Sf0VjXvXBYjY-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="a7E2P9M9Sf0VjXvXBYjY-14" target="a7E2P9M9Sf0VjXvXBYjY-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a7E2P9M9Sf0VjXvXBYjY-14" value="sku_info" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a7E2P9M9Sf0VjXvXBYjY-15" value="直到sku_info[&#39;wodiu&#39;]=True" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="460" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a7E2P9M9Sf0VjXvXBYjY-16" value="左边这种方案肯定有问题&lt;br&gt;因为只能走sku_info或者color这一条路线" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="180" width="320" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="a7E2P9M9Sf0VjXvXBYjY-17" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="62" y="540" width="125" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="a7E2P9M9Sf0VjXvXBYjY-18" value="sku_info" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="65" y="540" width="120" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="a7E2P9M9Sf0VjXvXBYjY-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="a7E2P9M9Sf0VjXvXBYjY-20" target="a7E2P9M9Sf0VjXvXBYjY-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a7E2P9M9Sf0VjXvXBYjY-20" value="sku_info" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="65" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a7E2P9M9Sf0VjXvXBYjY-21" value="sku_info" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="570" width="120" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="a7E2P9M9Sf0VjXvXBYjY-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="a7E2P9M9Sf0VjXvXBYjY-23" target="a7E2P9M9Sf0VjXvXBYjY-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a7E2P9M9Sf0VjXvXBYjY-23" value="sku_info" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a7E2P9M9Sf0VjXvXBYjY-24" value="直到sku_info[&#39;wodiu&#39;]=True" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="710" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a7E2P9M9Sf0VjXvXBYjY-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="a7E2P9M9Sf0VjXvXBYjY-26" target="a7E2P9M9Sf0VjXvXBYjY-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a7E2P9M9Sf0VjXvXBYjY-26" value="color" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="65" y="810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a7E2P9M9Sf0VjXvXBYjY-31" value="现在我直接找sku_info里面的最后一层&lt;br&gt;并且把值赋值给sku_info的下一层&lt;div&gt;但是如果出现多个wodiu=True那么还是可能会出现问题&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="540" width="400" height="270" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
