@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2024-05-08T03:17:38.197Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="ghi4s5ozKE17av6ZBBWv" version="24.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-08T03:26:27.518Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="Qn2VxZN7eSitzidqDj5V" version="24.3.1" type="github">
   <diagram name="第 1 页" id="oR3SPq28IfKs69Jtm_W2">
     <mxGraphModel dx="2390" dy="1268" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="wlJlTD7zzjwppgTD_WOC-68" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="90" y="620" width="1610" height="520" as="geometry" />
+          <mxGeometry x="80" y="620" width="1610" height="520" as="geometry" />
         </mxCell>
         <mxCell id="wlJlTD7zzjwppgTD_WOC-66" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="90" y="60" width="1420" height="430" as="geometry" />
@@ -94,19 +94,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wlJlTD7zzjwppgTD_WOC-35" value="&lt;div style=&quot;background-color:#1e1f22;color:#bcbec4&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:15.0pt;&quot;&gt;&lt;span style=&quot;color:#56a8f5;&quot;&gt;worker&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="170" y="640" width="120" height="100" as="geometry" />
+          <mxGeometry x="160" y="640" width="120" height="100" as="geometry" />
         </mxCell>
         <mxCell id="wlJlTD7zzjwppgTD_WOC-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="wlJlTD7zzjwppgTD_WOC-37" target="wlJlTD7zzjwppgTD_WOC-39" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wlJlTD7zzjwppgTD_WOC-37" value="链接aria2" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="370" y="660" width="120" height="60" as="geometry" />
+          <mxGeometry x="360" y="660" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wlJlTD7zzjwppgTD_WOC-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="wlJlTD7zzjwppgTD_WOC-39" target="wlJlTD7zzjwppgTD_WOC-42" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wlJlTD7zzjwppgTD_WOC-39" value="redis中读取数据" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="570" y="660" width="120" height="60" as="geometry" />
+          <mxGeometry x="560" y="660" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wlJlTD7zzjwppgTD_WOC-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="wlJlTD7zzjwppgTD_WOC-42" target="wlJlTD7zzjwppgTD_WOC-44" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -125,13 +125,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="wlJlTD7zzjwppgTD_WOC-42" value="检查sw是否存在" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="770" y="660" width="120" height="60" as="geometry" />
+          <mxGeometry x="760" y="660" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wlJlTD7zzjwppgTD_WOC-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="wlJlTD7zzjwppgTD_WOC-44" target="wlJlTD7zzjwppgTD_WOC-48" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wlJlTD7zzjwppgTD_WOC-44" value="添加到aria2下载队列" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="770" y="800" width="120" height="60" as="geometry" />
+          <mxGeometry x="760" y="800" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wlJlTD7zzjwppgTD_WOC-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="wlJlTD7zzjwppgTD_WOC-48" target="wlJlTD7zzjwppgTD_WOC-50" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -150,22 +150,22 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="wlJlTD7zzjwppgTD_WOC-48" value="写入redis" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="970" y="800" width="120" height="60" as="geometry" />
+          <mxGeometry x="960" y="800" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wlJlTD7zzjwppgTD_WOC-63" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="wlJlTD7zzjwppgTD_WOC-50" target="wlJlTD7zzjwppgTD_WOC-62" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wlJlTD7zzjwppgTD_WOC-50" value="读取键" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1170" y="800" width="120" height="60" as="geometry" />
+          <mxGeometry x="1160" y="800" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wlJlTD7zzjwppgTD_WOC-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="wlJlTD7zzjwppgTD_WOC-52" target="wlJlTD7zzjwppgTD_WOC-53" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wlJlTD7zzjwppgTD_WOC-52" value="切图" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1400" y="660" width="120" height="60" as="geometry" />
+          <mxGeometry x="1390" y="660" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wlJlTD7zzjwppgTD_WOC-53" value="删除redis记录" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1570" y="660" width="120" height="60" as="geometry" />
+          <mxGeometry x="1560" y="660" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wlJlTD7zzjwppgTD_WOC-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="wlJlTD7zzjwppgTD_WOC-56" target="wlJlTD7zzjwppgTD_WOC-57" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -174,34 +174,34 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wlJlTD7zzjwppgTD_WOC-56" value="查看是否曾经下载失败过" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="970" y="940" width="120" height="60" as="geometry" />
+          <mxGeometry x="960" y="940" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wlJlTD7zzjwppgTD_WOC-57" value="抛弃" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1170" y="940" width="120" height="60" as="geometry" />
+          <mxGeometry x="1160" y="940" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wlJlTD7zzjwppgTD_WOC-60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="wlJlTD7zzjwppgTD_WOC-59" target="wlJlTD7zzjwppgTD_WOC-44" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wlJlTD7zzjwppgTD_WOC-59" value="添加到redis中" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="770" y="940" width="120" height="60" as="geometry" />
+          <mxGeometry x="760" y="940" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wlJlTD7zzjwppgTD_WOC-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="wlJlTD7zzjwppgTD_WOC-62" target="wlJlTD7zzjwppgTD_WOC-52" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wlJlTD7zzjwppgTD_WOC-62" value="写入redis" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1170" y="660" width="120" height="60" as="geometry" />
+          <mxGeometry x="1160" y="660" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wlJlTD7zzjwppgTD_WOC-67" value="第一版" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="30" y="280" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wlJlTD7zzjwppgTD_WOC-69" value="第二版" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="40" y="860" width="120" height="60" as="geometry" />
+          <mxGeometry x="30" y="860" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="nasB31tPZ9oMDGfEIj4p-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nasB31tPZ9oMDGfEIj4p-3" target="wlJlTD7zzjwppgTD_WOC-62">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nasB31tPZ9oMDGfEIj4p-3" value="images_genetor&lt;br&gt;会连接失败" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="990" y="650" width="80" height="80" as="geometry" />
+          <mxGeometry x="980" y="650" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
