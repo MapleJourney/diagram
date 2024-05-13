@@ -1,9 +1,81 @@
-<mxfile host="app.diagrams.net" modified="2024-05-11T06:48:14.319Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" version="24.4.0" etag="QO4Mr5pn3UpRfgpgnO3y" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-13T09:58:08.754Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="y-dXeapb2h-oDMsR3b19" version="24.4.0" type="github">
   <diagram name="第 1 页" id="eghigrbULf6CAQQr3dap">
-    <mxGraphModel>
+    <mxGraphModel dx="2261" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="B1QtHKyZjYeezR3bkCH2-14" value="" style="rounded=0;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="-250" y="70" width="1010" height="870" as="geometry" />
+        </mxCell>
+        <mxCell id="B1QtHKyZjYeezR3bkCH2-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" edge="1" parent="1" source="B1QtHKyZjYeezR3bkCH2-1" target="B1QtHKyZjYeezR3bkCH2-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B1QtHKyZjYeezR3bkCH2-1" value="&lt;div style=&quot;background-color:#1e1f22;color:#bcbec4&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:13.5pt;&quot;&gt;&lt;div&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:13.5pt;&quot;&gt;&lt;span style=&quot;color:#a9b7c6;&quot;&gt;constantFold&lt;br&gt;所有可以直接执行的表达式得到运行结果进行还原&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="140" width="440" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="B1QtHKyZjYeezR3bkCH2-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" edge="1" parent="1" source="B1QtHKyZjYeezR3bkCH2-2" target="B1QtHKyZjYeezR3bkCH2-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B1QtHKyZjYeezR3bkCH2-2" value="&lt;div style=&quot;background-color:#1e1f22;color:#bcbec4&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:13.5pt;&quot;&gt;&lt;span style=&quot;color:#a9b7c6;&quot;&gt;restoreSpFunctionDeclaration&lt;br/&gt;函数如果只有一行，那把他提取出来，并且调用这个函数的地方进行替换&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry y="330" width="600" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="B1QtHKyZjYeezR3bkCH2-5" value="" style="whiteSpace=wrap;html=1;rounded=0;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="-85" y="500" width="770" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="B1QtHKyZjYeezR3bkCH2-7" value="循环修改" style="rounded=0;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="-140" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B1QtHKyZjYeezR3bkCH2-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" edge="1" parent="1" source="B1QtHKyZjYeezR3bkCH2-8" target="B1QtHKyZjYeezR3bkCH2-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B1QtHKyZjYeezR3bkCH2-8" value="&lt;div style=&quot;background-color:#1e1f22;color:#bcbec4&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:13.5pt;&quot;&gt;&lt;span style=&quot;color:#a9b7c6;&quot;&gt;restoreAssignConstant&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="550" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B1QtHKyZjYeezR3bkCH2-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" edge="1" parent="1" source="B1QtHKyZjYeezR3bkCH2-9" target="B1QtHKyZjYeezR3bkCH2-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B1QtHKyZjYeezR3bkCH2-9" value="1.内容是常量的变量&lt;br&gt;2.用常量替换这些变量的调用" style="whiteSpace=wrap;html=1;rounded=0;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B1QtHKyZjYeezR3bkCH2-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" edge="1" parent="1" source="B1QtHKyZjYeezR3bkCH2-11" target="B1QtHKyZjYeezR3bkCH2-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B1QtHKyZjYeezR3bkCH2-11" value="&lt;div style=&quot;background-color:#1e1f22;color:#bcbec4&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:13.5pt;&quot;&gt;&lt;div&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:13.5pt;&quot;&gt;&lt;span style=&quot;color:#a9b7c6;&quot;&gt;constantFold&lt;br&gt;所有可以直接执行的表达式得到运行结果进行还原&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="710" width="440" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="B1QtHKyZjYeezR3bkCH2-15" value="第一层" style="rounded=0;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="-205" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B1QtHKyZjYeezR3bkCH2-16" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-250" y="940" width="1010" height="780" as="geometry" />
+        </mxCell>
+        <mxCell id="B1QtHKyZjYeezR3bkCH2-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="B1QtHKyZjYeezR3bkCH2-17" target="B1QtHKyZjYeezR3bkCH2-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B1QtHKyZjYeezR3bkCH2-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="B1QtHKyZjYeezR3bkCH2-17" target="B1QtHKyZjYeezR3bkCH2-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B1QtHKyZjYeezR3bkCH2-17" value="&lt;div style=&quot;background-color:#1e1f22;color:#bcbec4&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:13.5pt;&quot;&gt;&lt;span style=&quot;color:#a9b7c6;&quot;&gt;reStoreUnaryExpressionOfReturn&lt;br/&gt;解决单元表达式&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-205" y="970" width="370" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B1QtHKyZjYeezR3bkCH2-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="B1QtHKyZjYeezR3bkCH2-18" target="B1QtHKyZjYeezR3bkCH2-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B1QtHKyZjYeezR3bkCH2-18" value="要求参数和表达式数量都是1，拥有return,并且表达式是单元表达式" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="370" y="970" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B1QtHKyZjYeezR3bkCH2-21" value="父节点是否包含该节点&lt;br&gt;参数不止1个&lt;div&gt;是上面任意一个条件就不进行替换&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="335" y="1060" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B1QtHKyZjYeezR3bkCH2-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="B1QtHKyZjYeezR3bkCH2-23" target="B1QtHKyZjYeezR3bkCH2-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B1QtHKyZjYeezR3bkCH2-23" value="&lt;div style=&quot;background-color:#1e1f22;color:#bcbec4&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:13.5pt;&quot;&gt;&lt;span style=&quot;color:#a9b7c6;&quot;&gt;reStoreBinaryExpressionOfReturn&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-210" y="1210" width="380" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B1QtHKyZjYeezR3bkCH2-25" value="两个参数的单表达式的复原&lt;br&gt;&lt;br&gt;&lt;br&gt;和上面的代码基本一样" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="380" y="1195" width="130" height="90" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
